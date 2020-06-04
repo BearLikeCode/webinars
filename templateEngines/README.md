@@ -1,10 +1,7 @@
 # Template engines
 
 ## Content of the presentation
-* Dust.js (Linkedin)
-* Marko (eBay)
-* Mustache.js
-* Handlebars.js
-* Mustache.js vs Handlebars.js
-* Haml (HTML abstraction markup language)
-* Pug (ex Jade)
+* EJS - Embedded JavaScript template engine.
+* hbs - Adapter for Handlebars.js, an extension of Mustache.js template engine.
+* Pug (ex Jade) - Haml-inspired template engine (formerly Jade).
+* Twing - First-class Twig engine for Node.js.
