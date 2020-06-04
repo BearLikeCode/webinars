@@ -8,3 +8,7 @@ Link to the [presentation](https://docs.google.com/presentation/d/1Uhhkn2C5UDmvO
 * Best Practices
 * Modules
 * Preprocessors (LESS, SASS, SCSS)
+
+Inside less, sass or scss folder you can find examples inside folder src/css/partials. All examples are there.
+
+Good luck.
