@@ -1,0 +1,32 @@
+extends ../layout
+
+block content
+
+    h1 Iteration
+
+    ul
+        each val, key in {1: 'one', 2: 'two', 3: 'three'}
+            li= key + ': ' + val
+
+    ul
+        each val, index in ['zero', 'one', 'two']
+            li= index + ': ' + val
+
+    - var values = [];
+    ul
+        each val in values.length ? values : ['There are no values']
+            li= val
+
+    - var values = [];
+    ul
+        each val in values
+            li= val
+        else
+            li There are no values
+
+    h2 while
+
+    - var n = 0;
+    ul
+        while n < 4
+            li= n++

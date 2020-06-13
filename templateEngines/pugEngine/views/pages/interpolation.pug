@@ -1,0 +1,45 @@
+extends ../layout
+
+block content
+
+    h1 Interpolation
+
+    h2 String Interpolation, Escaped
+
+    - var title = "On Dogs: Man's Best Friend";
+    - var author = "enlore";
+    - var theGreat = "<span>escape!</span>";
+
+    h1= title
+    p Written with love by #{author}
+    p This will be safe: #{theGreat}
+
+    h2 String Interpolation, Unescaped
+
+    - var msg = "not my inside voice";
+    p This is #{msg.toUpperCase()}
+
+    - var riskyBusiness = "<em>Some of the girls are wearing my mother's clothing.</em>";
+    .quote
+        p Joel: !{riskyBusiness}
+
+    h2 Tag Interpolation
+
+    p.
+        This is a very long and boring paragraph that spans multiple lines.
+        Suddenly there is a #[strong strongly worded phrase] that cannot be
+        #[em ignored].
+    p.
+        And here's an example of an interpolated tag with an attribute:
+        #[q(lang="es") ¡Hola Mundo!]
+
+    h2 Whitespace Control
+
+    p
+        | If I don't write the paragraph with tag interpolation, tags like
+        strong strong
+        | and
+        em em
+        | might produce unexpected results.
+    p.
+        If I do, whitespace is #[strong respected] and #[em everybody] is happy.

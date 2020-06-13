@@ -1,0 +1,8 @@
+@mixin adjust-location($x, $y)
+    @if unitless($x)
+        @error "$x не может быть безразмерным, было ."
+    @if unitless($y)
+        @error "$y не может быть безразмерным, было ."
+    position: relative
+    left: $x
+    top: $y
