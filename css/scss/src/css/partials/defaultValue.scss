@@ -1,0 +1,8 @@
+$content: "Тестовый текст";
+$content: "Новый тестовый текст" !default;
+$new_content: "Как пройти в библиотеку?" !default;
+
+#main {
+    content: $content;
+    new-content: $new_content;
+}
