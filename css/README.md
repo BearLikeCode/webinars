@@ -9,7 +9,7 @@ Link to the [presentation](https://docs.google.com/presentation/d/1Uhhkn2C5UDmvO
 * Modules
 * Preprocessors (LESS, SASS, SCSS)
 
-Inside less, sass or scss folder you can find examples inside folder src/css/partials. 
+Inside less, sass or scss folder you can find examples inside folder src/css/partials.  
 Inside css-modules example inside folder src file App.js.
 
 Good luck.
