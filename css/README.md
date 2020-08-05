@@ -13,4 +13,4 @@ Link to the [presentation](https://docs.google.com/presentation/d/1Uhhkn2C5UDmvO
 Inside folders: less, sass or scss you can find examples inside folder src/css/partials.  
 Inside folder css-modules example inside folder src file App.js.
 
-Good luck.
+Good luck:)
